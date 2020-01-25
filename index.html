@@ -7,7 +7,7 @@
 <!--===============================================================================================-->
 	<link rel="icon" type="image/png" href="images/icons/favicon-circle.png"/>
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 <!--===============================================================================================-->
@@ -57,17 +57,99 @@
     	logged_out_greeting="Hey there! How can we help?">
 </div>
 
-<div class="landing"></div>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light static-top">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="#">ROOP</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Couples
+						<span class="sr-only">(current)</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Vendors</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Community</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Join</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<!-- Landing -->
+<div class="container-fluid">
+  <div class="row">
+		<!-- Landing Left -->
+    <div class="col-md-8 col-lg-6">
+      <div class="landing-left d-flex">
+          <div class="row">
+            <div class="col-md-8 col-lg-8 mx-auto my-auto">
+              <h2 class="landing-title my-4">Honoring life’s most beautiful moments.</h2>
+							<h3 class="landing-subtitle my-4">A wedding marketplace & planning tool for South Asian couples. </h3>
+              <form class="form-inline my-4 mx-auto">
+								<div class="form-row">
+									<div class="form-group">
+								    <label for="emailAddress" class="sr-only">Email Address</label>
+								    <input type="emailAddress" class="form-control landing-email ml-sm-1 mr-sm-2" id="emailAddress" placeholder="Email Address">
+								  </div>
+							  	<button type="submit" class="btn btn-primary landing-submit">Join</button>
+								</div>
+              </form>
+            </div>
+          </div>
+      </div>
+    </div>
+		<!-- Landing Right -->
+		<div class="col-md-4 col-lg-6">
+			<div class="landing-right d-flex">
+				<div class="landing-grid mx-auto my-auto">
+					<div class="landing-grid-item landing-grid-item-1">
+						<a href="#" class="d-block mx-1 my-1">
+							<img class="img-fluid" src="images/R_background.png" alt="">
+						</a>
+					</div>
+					<div class="landing-grid-item landing-grid-item-2">
+						<a href="#" class="d-block mx-1 my-1">
+							<img class="img-fluid" src="images/O_background.png" alt="">
+						</a>
+					</div>
+					<div class="landing-grid-item landing-grid-item-3">
+						<a href="#" class="d-block mx-1 my-1">
+							<img class="img-fluid" src="images/O_background2.png" alt="">
+						</a>
+					</div>
+					<div class="landing-grid-item landing-grid-item-4">
+						<a href="#" class="d-block mx-1 my-1">
+							<img class="img-fluid" src="images/P_background.png" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+  </div>
+</div>
 
 
 
 
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false">
+</script>
+<script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us5.list-manage.com","uuid":"895b49dd3f477aee866491077","lid":"f9c7434261","uniqueMethods":true}) })
+</script>
 <!--===============================================================================================-->
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<!--===============================================================================================-->
 	<script src="vendor/select2/select2.min.js"></script>
 <!--===============================================================================================-->
 	<script src="vendor/tilt/tilt.jquery.min.js"></script>
